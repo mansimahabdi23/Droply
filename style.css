@@ -312,3 +312,86 @@ body {
   color: #364670;
   cursor: pointer;
 }
+.right-section .widgets {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section .widgets .disk {
+  background: #fff;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding: 0 25px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(136, 148, 171, 0.2),
+    0 24px 20px -24px rgba(71, 82, 107, 0.1);
+}
+
+.right-section .widgets .disk .progress {
+  display: flex;
+  justify-content: center;
+}
+
+.right-section .widgets .disk .progress .progress-bar {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(closest-side, #fff 79%, transparent 80% 100%),
+    conic-gradient(#4a90e2 25%, #e6e4ec 0%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.right-section .widgets .disk .progress .progress-bar::before {
+  content: "25%";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.right-section .widgets .disk .progress .progress-bar::after {
+  content: "used";
+  font-size: 13px;
+  color: #999;
+}
+
+.right-section .widgets .disk .info h5 {
+  color: #999;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.right-section .widgets .disk h5 span {
+  color: #364670;
+}
+
+.right-section .widgets .disk .info p {
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+}
+
+.right-section .widgets .bottom {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.right-section .widgets .bottom button {
+  border: none;
+  background: #4a90e2;
+  color: #fff;
+  margin: 30px 0;
+  font-size: 20px;
+  padding: 14px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
