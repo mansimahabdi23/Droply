@@ -545,3 +545,26 @@ body {
     display: block;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  .main {
+    padding: 26px 15px 0;
+    /* flex: none;
+    width: 100%; */
+  }
+  .main .header {
+    justify-content: start;
+  }
+
+  .main .header .search {
+    width: 30%;
+  }
+  .right-section .profile {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
