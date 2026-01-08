@@ -541,6 +541,29 @@ body {
     font-size: 22px;
   }
 
+  .main,
+  .right-section {
+    padding: 15px;
+  }
+
+  .main .header {
+    gap: 10px;
+  }
+
+  .main .quick-access .item p {
+    text-align: center;
+  }
+
+  .main table tbody tr td.name,
+  .main table tbody tr td.extension,
+  .main table tbody tr td.size {
+    font-size: 13px;
+  }
+
+  /* .right-section{
+    padding: 15px;
+  } */
+
   .main .header .icon-btns i#menu-btn {
     display: block;
   }
