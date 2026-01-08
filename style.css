@@ -610,3 +610,25 @@ body {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 100px 15px 0;
+  }
+
+  .main .header .search {
+    width: 68%;
+  }
+
+  .right-section .profile {
+    width: 94%;
+  }
+
+  .right-section .widgets .disk .info h5 {
+    font-size: 14px;
+  }
+
+  .right-section .widgets .disk .info p {
+    font-size: 13px;
+  }
+}
